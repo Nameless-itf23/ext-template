@@ -1,0 +1,17 @@
+{
+  "name": "ext-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && vite build --emptyOutDir"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.256",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  }
+}
