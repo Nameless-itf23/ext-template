@@ -1,11 +1,11 @@
 {
   "manifest_version": 1,
-  "name": "Auto Form Input",
-  "description": "Base Level Extension",
+  "name": "ext-template",
+  "description": "",
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["http://va.pia.jp/*", "https://va.pia.jp/*"],
+      "matches": ["http://google.com/*", "https://www.yahoo.co.jp/*"],
       "js": ["index.js"],
       "css": ["global.css"]
     }
